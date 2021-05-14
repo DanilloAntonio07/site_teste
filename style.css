@@ -213,6 +213,17 @@ a:hover {
     background-color: #c41d1d;
 }
 
+.button1 {
+    font-family: 'Comfortaa';
+    padding: 5px;
+    border-style: solid;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+    border-color: white;
+    width: 100%;
+}
+
 .button1:hover {
     border-color: #2ecc71;
 }
@@ -247,6 +258,7 @@ a:hover {
         left: -100%;
         text-align: center;
         transition: all .7s;
+        z-index: 1;
     }
    li {
         display: flex;
@@ -272,8 +284,5 @@ a:hover {
     .img2 {
         margin-top: 10px;
         margin-right: 0px;
-    }
-
-    .formulario {
     }
 }
